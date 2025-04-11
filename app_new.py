@@ -18,8 +18,8 @@ openai.api_key = OPENAI_API_KEY
 # 네이버 뉴스 API 설정
 def fetch_news(region, category):
     API_ENDPOINT = "https://openapi.naver.com/v1/search/news.json"
-    CLIENT_ID = "0Cp4ZSUyFClLIiU2e7dC"
-    CLIENT_SECRET = "z2jtzBBShU"
+    CLIENT_ID = "key5"
+    CLIENT_SECRET = "key6"
     query = f"{region} {category}"
     
     headers = {
